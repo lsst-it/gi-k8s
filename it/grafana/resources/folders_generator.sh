@@ -14,7 +14,8 @@ POD="$(kubectl get -n ${NAMESPACE} pods -o json | jq -r '.items[].metadata.name'
 clustersID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/fr5kaxQGz 2>/dev/null | jq -r '.id')"
 servicesID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/xZtkaxwMk 2>/dev/null | jq -r '.id')"
 serversID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/NbYQ1AwMz 2>/dev/null | jq -r '.id')"
-rm -rf ID/*
+rm -rf ID
+mkdir ID
 touch ID/$clustersID
 touch ID/$servicesID
 touch ID/$serversID
