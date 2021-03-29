@@ -15,6 +15,7 @@ for folder in "${Folders[@]}"; do
     counter=$((counter+1))
 done
 
+source clusters/scheme/json_generator.sh
 for filename in clusters/*.json; do
     /usr/bin/curl -k -u ${USER}:${PASSWORD} -H "Content-Type: application/json" -X POST https://${URL}/api/dashboards/db -d @"$filename" > /dev/null 2>&1
 done
