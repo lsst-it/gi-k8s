@@ -14,6 +14,10 @@ Deploy Grafana Folders:
 .. code-block:: bash
   ./resources/folders_generator.sh
 
+Generate Cluster's JSON files
+.. code-block:: bash
+  ./resources/clusters/scheme/json_generator.sh
+
 Deploy Cluster's Dashboards
 .. code-block:: bash
   ./resources/clusters/deploy_dashboards.sh
