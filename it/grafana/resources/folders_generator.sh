@@ -11,3 +11,10 @@ POD="$(kubectl get -n ${NAMESPACE} pods -o json | jq -r '.items[].metadata.name'
 /usr/bin/curl -k -u ${USER}:${PASSWORD} -H "Content-Type: application/json" -X POST https://${URL}/api/folders -d "{\"id\":null,\"uid\":\"fr5kaxQGz\",\"title\":\"clusters\"}" > /dev/null 2>&1
 /usr/bin/curl -k -u ${USER}:${PASSWORD} -H "Content-Type: application/json" -X POST https://${URL}/api/folders -d "{\"id\":null,\"uid\":\"xZtkaxwMk\",\"title\":\"services\"}" > /dev/null 2>&1
 /usr/bin/curl -k -u ${USER}:${PASSWORD} -H "Content-Type: application/json" -X POST https://${URL}/api/folders -d "{\"id\":null,\"uid\":\"NbYQ1AwMz\",\"title\":\"servers\"}" > /dev/null 2>&1
+clustersID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/fr5kaxQGz 2>/dev/null | jq -r '.id')"
+servicesID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/xZtkaxwMk 2>/dev/null | jq -r '.id')"
+serversID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/NbYQ1AwMz 2>/dev/null | jq -r '.id')"
+rm -rf ID/*
+touch ID/$clustersID
+touch ID/$servicesID
+touch ID/$serversID
