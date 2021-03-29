@@ -16,6 +16,6 @@ servicesID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: applicat
 serversID="$(/usr/bin/curl -k -u ${USER}:${PASSWORD} -H 'Content-Type: application/json' -X GET https://it-grafana.ls.lsst.org/api/folders/NbYQ1AwMz 2>/dev/null | jq -r '.id')"
 rm -rf ID
 mkdir ID
-touch ID/$clustersID
-touch ID/$servicesID
-touch ID/$serversID
+echo -n $clustersID > ID/clustersID
+echo -n $servicesID > ID/servicesID
+echo -n $serversID  > ID/serversID
