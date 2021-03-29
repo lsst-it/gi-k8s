@@ -70,7 +70,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS",
+              "alias": "core1 LS",
               "groupBy": [
                 {
                   "params": [
@@ -108,12 +108,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS",
+              "alias": "core2 LS",
               "groupBy": [
                 {
                   "params": [
@@ -151,12 +151,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS",
+              "alias": "core3 LS",
               "groupBy": [
                 {
                   "params": [
@@ -194,12 +194,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP",
+              "alias": "core1 CP",
               "groupBy": [
                 {
                   "params": [
@@ -237,12 +237,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP",
+              "alias": "core2 CP",
               "groupBy": [
                 {
                   "params": [
@@ -280,12 +280,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP",
+              "alias": "core3 CP",
               "groupBy": [
                 {
                   "params": [
@@ -323,12 +323,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU",
+              "alias": "core1 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -366,12 +366,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU",
+              "alias": "core2 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -409,50 +409,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "system",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "I",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "load15"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -546,7 +503,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS",
+              "alias": "core1 LS",
               "groupBy": [
                 {
                   "params": [
@@ -584,12 +541,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS",
+              "alias": "core2 LS",
               "groupBy": [
                 {
                   "params": [
@@ -627,12 +584,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS",
+              "alias": "core3 LS",
               "groupBy": [
                 {
                   "params": [
@@ -670,12 +627,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP",
+              "alias": "core1 CP",
               "groupBy": [
                 {
                   "params": [
@@ -713,12 +670,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP",
+              "alias": "core2 CP",
               "groupBy": [
                 {
                   "params": [
@@ -756,12 +713,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP",
+              "alias": "core3 CP",
               "groupBy": [
                 {
                   "params": [
@@ -799,12 +756,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU",
+              "alias": "core1 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -842,12 +799,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU",
+              "alias": "core2 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -885,50 +842,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "I",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -1025,7 +939,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS recieved bytes",
+              "alias": "core1 LS recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1075,12 +989,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS recieved bytes",
+              "alias": "core2 LS recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1130,12 +1044,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS recieved bytes",
+              "alias": "core3 LS recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1185,12 +1099,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP recieved bytes",
+              "alias": "core1 CP recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1240,12 +1154,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP recieved bytes",
+              "alias": "core2 CP recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1295,12 +1209,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP recieved bytes",
+              "alias": "core3 CP recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1350,12 +1264,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 LS sent bytes",
+              "alias": "core1 LS sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1405,12 +1319,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS sent bytes",
+              "alias": "core2 LS sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1460,12 +1374,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS sent bytes",
+              "alias": "core3 LS sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1515,12 +1429,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP sent bytes",
+              "alias": "core1 CP sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1570,12 +1484,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP sent bytes",
+              "alias": "core2 CP sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1625,12 +1539,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP sent bytes",
+              "alias": "core3 CP sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1680,12 +1594,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU recieved bytes",
+              "alias": "core1 DEV recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1735,12 +1649,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU recieved bytes",
+              "alias": "core2 DEV recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1790,67 +1704,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 TU recieved bytes",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "net",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "O",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "bytes_recv"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "10s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " / 100000"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher1 TU sent bytes",
+              "alias": "core1 DEV sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1900,12 +1759,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU sent bytes",
+              "alias": "core2 DEV sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -1955,62 +1814,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU sent bytes",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "net",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "R",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "bytes_recv"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "10s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " *-1/ 100000"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -2113,7 +1917,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS read IO",
+              "alias": "core1 LS read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2163,12 +1967,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS read IO",
+              "alias": "core2 LS read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2218,12 +2022,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS read IO",
+              "alias": "core3 LS read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2273,12 +2077,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP read IO",
+              "alias": "core1 CP read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2328,12 +2132,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP read IO",
+              "alias": "core2 CP read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2383,12 +2187,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP read IO",
+              "alias": "core3 CP read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2438,12 +2242,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 LS write IO",
+              "alias": "core1 LS write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2493,12 +2297,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS write IO",
+              "alias": "core2 LS write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2548,12 +2352,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS write IO",
+              "alias": "core3 LS write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2603,12 +2407,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP write IO",
+              "alias": "core1 CP write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2658,12 +2462,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP write IO",
+              "alias": "core2 CP write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2713,12 +2517,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP write IO",
+              "alias": "core3 CP write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2768,12 +2572,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU read IO",
+              "alias": "core1 DEV read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2823,12 +2627,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU read IO",
+              "alias": "core2 DEV read IO",
               "groupBy": [
                 {
                   "params": [
@@ -2878,67 +2682,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 TU read IO",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "diskio",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "O",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "read_bytes"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "1s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " / 100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher1 TU write IO",
+              "alias": "core1 DEV write IO",
               "groupBy": [
                 {
                   "params": [
@@ -2988,12 +2737,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU write IO",
+              "alias": "core2 DEV write IO",
               "groupBy": [
                 {
                   "params": [
@@ -3043,62 +2792,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU write IO",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "diskio",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "R",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "write_bytes"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "1s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      "*-1 / 100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -3197,7 +2891,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS",
+              "alias": "core1 LS",
               "groupBy": [
                 {
                   "params": [
@@ -3235,12 +2929,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS",
+              "alias": "core2 LS",
               "groupBy": [
                 {
                   "params": [
@@ -3278,12 +2972,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS",
+              "alias": "core3 LS",
               "groupBy": [
                 {
                   "params": [
@@ -3321,12 +3015,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP",
+              "alias": "core1 CP",
               "groupBy": [
                 {
                   "params": [
@@ -3364,12 +3058,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP",
+              "alias": "core2 CP",
               "groupBy": [
                 {
                   "params": [
@@ -3407,12 +3101,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 CP",
+              "alias": "core3 CP",
               "groupBy": [
                 {
                   "params": [
@@ -3450,12 +3144,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU",
+              "alias": "core1 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -3493,12 +3187,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU",
+              "alias": "core2 DEV",
               "groupBy": [
                 {
                   "params": [
@@ -3536,50 +3230,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "I",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_user"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -3678,7 +3329,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "rancher1 LS used disk",
+              "alias": "core1 LS used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3722,12 +3373,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.ls.lsst.org"
+                  "value": "core1.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 LS used disk",
+              "alias": "core2 LS used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3771,12 +3422,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.ls.lsst.org"
+                  "value": "core2.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher3 LS used disk",
+              "alias": "core3 LS used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3820,12 +3471,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.ls.lsst.org"
+                  "value": "core3.ls.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 CP used disk",
+              "alias": "core1 CP used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3869,12 +3520,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.cp.lsst.org"
+                  "value": "core1.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 CP used disk",
+              "alias": "core2 CP used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3918,7 +3569,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.cp.lsst.org"
+                  "value": "core2.cp.lsst.org"
                 }
               ]
             },
@@ -3967,12 +3618,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher3.cp.lsst.org"
+                  "value": "core3.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher1 TU used disk",
+              "alias": "core1 DEV used disk",
               "groupBy": [
                 {
                   "params": [
@@ -4016,12 +3667,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher1.tu.lsst.org"
+                  "value": "core1.dev.lsst.org"
                 }
               ]
             },
             {
-              "alias": "rancher2 TU used disk",
+              "alias": "core2 DEV used disk",
               "groupBy": [
                 {
                   "params": [
@@ -4065,56 +3716,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "rancher2.tu.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "rancher3 TU used disk",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "disk",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "I",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "rancher3.tu.lsst.org"
+                  "value": "core2.dev.lsst.org"
                 }
               ]
             }
@@ -4174,9 +3776,9 @@
       },
       "timepicker": {},
       "timezone": "",
-      "title": "Rancher Cluster",
+      "title": "Core Cluster",
       "uid": null
     },
-  "folderId": 173,
+  "folderId": null,
   "overwrite": false
 }

@@ -70,7 +70,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01",
+              "alias": "chonchon01",
               "groupBy": [
                 {
                   "params": [
@@ -108,12 +108,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02",
+              "alias": "chonchon02",
               "groupBy": [
                 {
                   "params": [
@@ -151,12 +151,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03",
+              "alias": "chonchon03",
               "groupBy": [
                 {
                   "params": [
@@ -194,50 +194,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "system",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "D",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "load15"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -331,7 +288,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01",
+              "alias": "chonchon01",
               "groupBy": [
                 {
                   "params": [
@@ -369,12 +326,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02",
+              "alias": "chonchon02",
               "groupBy": [
                 {
                   "params": [
@@ -412,12 +369,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03",
+              "alias": "chonchon03",
               "groupBy": [
                 {
                   "params": [
@@ -455,50 +412,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "mem",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "D",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -595,7 +509,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01 recieved bytes",
+              "alias": "chonchon01 recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -645,12 +559,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02 recieved bytes",
+              "alias": "chonchon02 recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -700,12 +614,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03 recieved bytes",
+              "alias": "chonchon03 recieved bytes",
               "groupBy": [
                 {
                   "params": [
@@ -755,67 +669,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen04 recieved bytes",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "net",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "D",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "bytes_recv"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "10s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " / 100000"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen01 sent bytes",
+              "alias": "chonchon01 sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -865,12 +724,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02 sent bytes",
+              "alias": "chonchon02 sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -920,12 +779,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03 sent bytes",
+              "alias": "chonchon03 sent bytes",
               "groupBy": [
                 {
                   "params": [
@@ -975,62 +834,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04 sent bytes",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "net",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "J",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "bytes_sent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "10s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " *-1/ 100000"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -1133,7 +937,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01 read IO",
+              "alias": "chonchon01 read IO",
               "groupBy": [
                 {
                   "params": [
@@ -1183,12 +987,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02 read IO",
+              "alias": "chonchon02 read IO",
               "groupBy": [
                 {
                   "params": [
@@ -1238,12 +1042,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03 read IO",
+              "alias": "chonchon03 read IO",
               "groupBy": [
                 {
                   "params": [
@@ -1293,67 +1097,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen04 read IO",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "diskio",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "E",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "read_bytes"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "1s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      " / 100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen01 write IO",
+              "alias": "chonchon01 write IO",
               "groupBy": [
                 {
                   "params": [
@@ -1403,12 +1152,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02 write IO",
+              "alias": "chonchon02 write IO",
               "groupBy": [
                 {
                   "params": [
@@ -1458,12 +1207,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03 write IO",
+              "alias": "chonchon03 write IO",
               "groupBy": [
                 {
                   "params": [
@@ -1513,62 +1262,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04 write IO",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "null"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "diskio",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "J",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "write_bytes"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "1s"
-                    ],
-                    "type": "derivative"
-                  },
-                  {
-                    "params": [
-                      "*-1 / 100"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -1667,7 +1361,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01",
+              "alias": "chonchon01",
               "groupBy": [
                 {
                   "params": [
@@ -1705,12 +1399,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02",
+              "alias": "chonchon02",
               "groupBy": [
                 {
                   "params": [
@@ -1748,12 +1442,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03",
+              "alias": "chonchon03",
               "groupBy": [
                 {
                   "params": [
@@ -1791,50 +1485,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "cpu",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "D",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "usage_user"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -1933,7 +1584,7 @@
           "steppedLine": false,
           "targets": [
             {
-              "alias": "kueyen01 used disk",
+              "alias": "chonchon01 used disk",
               "groupBy": [
                 {
                   "params": [
@@ -1977,12 +1628,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen01.ls.lsst.org"
+                  "value": "chonchon01.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen02 used disk",
+              "alias": "chonchon02 used disk",
               "groupBy": [
                 {
                   "params": [
@@ -2026,12 +1677,12 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen02.ls.lsst.org"
+                  "value": "chonchon02.cp.lsst.org"
                 }
               ]
             },
             {
-              "alias": "kueyen03 used disk",
+              "alias": "chonchon03 used disk",
               "groupBy": [
                 {
                   "params": [
@@ -2075,56 +1726,7 @@
                 {
                   "key": "host",
                   "operator": "=",
-                  "value": "kueyen03.ls.lsst.org"
-                }
-              ]
-            },
-            {
-              "alias": "kueyen04 used disk",
-              "groupBy": [
-                {
-                  "params": [
-                    "$__interval"
-                  ],
-                  "type": "time"
-                },
-                {
-                  "params": [
-                    "none"
-                  ],
-                  "type": "fill"
-                }
-              ],
-              "measurement": "disk",
-              "orderByTime": "ASC",
-              "policy": "default",
-              "refId": "D",
-              "resultFormat": "time_series",
-              "select": [
-                [
-                  {
-                    "params": [
-                      "used_percent"
-                    ],
-                    "type": "field"
-                  },
-                  {
-                    "params": [],
-                    "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
-                  }
-                ]
-              ],
-              "tags": [
-                {
-                  "key": "host",
-                  "operator": "=",
-                  "value": "kueyen04.ls.lsst.org"
+                  "value": "chonchon03.cp.lsst.org"
                 }
               ]
             }
@@ -2184,9 +1786,9 @@
       },
       "timepicker": {},
       "timezone": "",
-      "title": "Kueyen Cluster",
+      "title": "Chonchon Cluster",
       "uid": null
     },
-  "folderId": 173,
+  "folderId": null,
   "overwrite": false
 }
