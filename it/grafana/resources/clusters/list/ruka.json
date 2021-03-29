@@ -411,12 +411,6 @@
         "pointradius": 2,
         "points": false,
         "renderer": "flot",
-        "seriesOverrides": [
-          {
-            "alias": "mem.mean",
-            "color": "#8AB8FF"
-          }
-        ],
         "spaceLength": 10,
         "stack": false,
         "steppedLine": false,
@@ -446,19 +440,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -495,19 +483,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -544,19 +526,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -593,19 +569,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -642,19 +612,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -691,19 +655,13 @@
               [
                 {
                   "params": [
-                    "used"
+                    "used_percent"
                   ],
                   "type": "field"
                 },
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    " / 1000"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -736,7 +694,7 @@
         },
         "yaxes": [
           {
-            "format": "deckbytes",
+            "format": "percent",
             "label": null,
             "logBase": 1,
             "max": null,
@@ -758,10 +716,6 @@
         }
       },
       {
-        "aliasColors": {
-          "recieved bytes": "blue",
-          "sent bytes": "yellow"
-        },
         "bars": false,
         "dashLength": 10,
         "dashes": false,

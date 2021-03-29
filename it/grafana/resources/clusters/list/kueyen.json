@@ -355,19 +355,13 @@
                 [
                   {
                     "params": [
-                      "used"
+                      "used_percent"
                     ],
                     "type": "field"
                   },
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      " / 1000"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -404,19 +398,13 @@
                 [
                   {
                     "params": [
-                      "used"
+                      "used_percent"
                     ],
                     "type": "field"
                   },
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      " / 1000"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -453,19 +441,13 @@
                 [
                   {
                     "params": [
-                      "used"
+                      "used_percent"
                     ],
                     "type": "field"
                   },
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      " / 1000"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -502,19 +484,13 @@
                 [
                   {
                     "params": [
-                      "used"
+                      "used_percent"
                     ],
                     "type": "field"
                   },
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      " / 1000"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -547,7 +523,7 @@
           },
           "yaxes": [
             {
-              "format": "deckbytes",
+              "format": "percent",
               "label": null,
               "logBase": 1,
               "max": null,

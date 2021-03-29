@@ -791,7 +791,7 @@
         },
         "yaxes": [
           {
-            "format": "deckbytes",
+            "format": "percent",
             "label": null,
             "logBase": 1,
             "max": null,
@@ -3338,6 +3338,6 @@
     "title": "IPA",
     "uid": null 
   },
-  "folderId": 5,
+  "folderId": 174,
   "overwrite": false
 }

@@ -273,7 +273,7 @@
         },
         "yaxes": [
           {
-            "format": "deckbytes",
+            "format": "percent",
             "label": null,
             "logBase": 1,
             "max": null,
