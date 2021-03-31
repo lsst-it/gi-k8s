@@ -3709,12 +3709,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3723,6 +3717,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "atsccs1.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -3758,12 +3758,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3772,6 +3766,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "atsccs2.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -3807,12 +3807,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3821,6 +3815,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "at-keener.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -3856,12 +3856,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3870,6 +3864,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "atsdaq1.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -3905,12 +3905,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3919,11 +3913,17 @@
                   "key": "host",
                   "operator": "=",
                   "value": "atsdaq-mgmt.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
             {
-              "alias": "andes06 used disk",
+              "alias": "atarchiver used disk",
               "groupBy": [
                 {
                   "params": [
@@ -3954,12 +3954,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -3968,6 +3962,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "atarchiver.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4003,12 +4003,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4017,6 +4011,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "athexapod.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4052,12 +4052,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4066,6 +4060,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "auxtel-control-01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4101,12 +4101,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4115,6 +4109,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "nfs1.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             }

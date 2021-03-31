@@ -4058,12 +4058,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4072,6 +4066,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4107,12 +4107,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4121,6 +4115,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc02.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4156,12 +4156,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4170,6 +4164,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc03.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4205,12 +4205,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4219,6 +4213,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc04.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4254,12 +4254,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4268,11 +4262,17 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc05.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
             {
-              "alias": "andes06 used disk",
+              "alias": "ccs-dc06 used disk",
               "groupBy": [
                 {
                   "params": [
@@ -4303,12 +4303,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4317,6 +4311,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc06.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4352,12 +4352,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4366,6 +4360,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc07.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4401,12 +4401,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4415,6 +4409,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc08.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4450,12 +4450,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4464,6 +4458,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc09.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4499,12 +4499,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4513,6 +4507,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "ccs-dc10.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             }

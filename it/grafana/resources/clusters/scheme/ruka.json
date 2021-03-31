@@ -2666,12 +2666,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2680,6 +2674,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka01.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2715,12 +2715,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2729,6 +2723,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka02.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2764,12 +2764,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2778,6 +2772,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka03.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2813,12 +2813,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2827,6 +2821,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka04.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2862,12 +2862,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2876,6 +2870,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka05.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2911,12 +2911,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2925,6 +2919,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ruka06.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           }

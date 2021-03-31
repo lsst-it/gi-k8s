@@ -2968,12 +2968,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2982,6 +2976,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa1.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3017,12 +3017,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3031,6 +3025,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa2.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3066,12 +3066,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3080,6 +3074,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa1.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3115,12 +3115,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3129,6 +3123,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa2.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3164,12 +3164,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3178,6 +3172,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa1.dev.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3213,12 +3213,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3227,6 +3221,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa1.tuc.lsst.cloud"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3262,12 +3262,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3276,6 +3270,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "ipa2.tuc.lsst.cloud"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           }

@@ -1936,12 +1936,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -1950,6 +1944,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "foreman.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -1985,12 +1985,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -1999,6 +1993,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "foreman.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2034,12 +2034,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2048,6 +2042,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "foreman.dev.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2083,12 +2083,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2097,6 +2091,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "foreman.tuc.lsst.cloud"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           }

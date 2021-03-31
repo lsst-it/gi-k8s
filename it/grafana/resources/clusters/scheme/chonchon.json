@@ -1615,12 +1615,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -1629,6 +1623,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "chonchon01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -1664,12 +1664,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -1678,6 +1672,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "chonchon02.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -1713,12 +1713,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -1727,6 +1721,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "chonchon03.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             }

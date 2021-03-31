@@ -2676,12 +2676,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2690,6 +2684,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes01.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2725,12 +2725,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2739,6 +2733,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes02.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2774,12 +2774,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2788,6 +2782,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes03.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2823,12 +2823,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2837,6 +2831,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes04.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2872,12 +2872,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2886,6 +2880,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes05.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -2921,12 +2921,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -2935,6 +2929,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "andes06.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           }

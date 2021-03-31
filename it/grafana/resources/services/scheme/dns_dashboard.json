@@ -3656,12 +3656,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3670,6 +3664,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns1.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3705,12 +3705,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3719,6 +3713,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns2.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3754,12 +3754,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3768,6 +3762,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns3.ls.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3803,12 +3803,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3817,6 +3811,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns1.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3852,12 +3852,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3866,6 +3860,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns2.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3901,12 +3901,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3915,6 +3909,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns3.cp.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3950,12 +3950,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -3964,6 +3958,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns1.dev.lsst.org"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -3999,12 +3999,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -4013,6 +4007,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns1.tuc.lsst.cloud"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           },
@@ -4048,12 +4048,6 @@
                 {
                   "params": [],
                   "type": "mean"
-                },
-                {
-                  "params": [
-                    "*2"
-                  ],
-                  "type": "math"
                 }
               ]
             ],
@@ -4062,6 +4056,12 @@
                 "key": "host",
                 "operator": "=",
                 "value": "dns2.tuc.lsst.cloud"
+              },
+              {
+                "condition": "AND",
+                "key": "path",
+                "operator": "=",
+                "value": "/"
               }
             ]
           }

@@ -4450,12 +4450,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4464,6 +4458,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-arctl01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4499,12 +4499,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4513,6 +4507,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-db01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4548,12 +4548,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4562,6 +4556,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-dc01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4597,12 +4597,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4611,6 +4605,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-dmctl01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4646,12 +4646,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4660,6 +4654,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-fp01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4695,12 +4695,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4709,6 +4703,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-fwd01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4744,12 +4744,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4758,6 +4752,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-fwd02.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4793,12 +4793,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4807,6 +4801,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-mcm.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4842,12 +4842,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4856,6 +4850,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-ocsbr01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4891,12 +4891,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4905,6 +4899,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-vs01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             },
@@ -4940,12 +4940,6 @@
                   {
                     "params": [],
                     "type": "mean"
-                  },
-                  {
-                    "params": [
-                      "*2"
-                    ],
-                    "type": "math"
                   }
                 ]
               ],
@@ -4954,6 +4948,12 @@
                   "key": "host",
                   "operator": "=",
                   "value": "comcam-vw01.cp.lsst.org"
+                },
+                {
+                  "condition": "AND",
+                  "key": "path",
+                  "operator": "=",
+                  "value": "/"
                 }
               ]
             }
